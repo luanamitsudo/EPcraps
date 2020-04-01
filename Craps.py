@@ -5,6 +5,7 @@ dinheiro = 100
 print ('Você tem R$ {0}'. format (dinheiro))
 time.sleep(0.7)
 aposta = int(input('Quanto você gostaria de apostar? '))
+print('')
 
 while aposta != 0:
     if aposta <= dinheiro:
@@ -187,6 +188,6 @@ while aposta != 0:
                     print('')
                     aposta = int(input('Quanto você gostaria de apostar? '))
                 else:
-                    print ('Você perdeu!')      
+                    print ('Você perdeu!')       
     else:
         aposta = False
