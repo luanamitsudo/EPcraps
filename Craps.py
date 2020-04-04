@@ -52,6 +52,7 @@ while aposta != 0:
                 time.sleep(0.7)
                 if dinheiro > 0:
                    print('Próxima rodada!') 
+                   aposta = int(input(Fore.WHITE +'Quanto você gostaria de apostar? '))
                 else:
                     print ('Você perdeu R${0}'.format(aposta))
                     break
